@@ -5,7 +5,7 @@ import os
 from subprocess import getstatusoutput, getoutput
 import pytest
 
-from proj.ch01 import CH01
+from proj import CH01
 
 prg = CH01 / 'hello.py'
 
